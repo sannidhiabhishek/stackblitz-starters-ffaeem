@@ -1,9 +1,9 @@
 Required updates
 ----------------
-Version 1(Remaining changes of initial app):
+Version 1(Remaining changes of initial app): [COMPLETED on 08 Oct 2024]
 - fix screen resolution to fit all mobile screens [COMPLETED]
 - Update css and js naming convension [COMPLETED]
-- Initiate PWA after Version 1
+- Initiate and deploy on web to download PWA after Version 1 [COMPLETED]
 
 Version 2:
 - icons as svg(prefered) are locally storage (total 8 isons)

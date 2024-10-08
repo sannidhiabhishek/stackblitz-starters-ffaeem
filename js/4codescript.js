@@ -1,5 +1,5 @@
 function closeApp(){
-  window.close();
+  close();
 }
 jQuery(document).ready(function ($) {
   $(document).ready(function () {
