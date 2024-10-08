@@ -1,3 +1,6 @@
+function closeApp(){
+  window.close();
+}
 jQuery(document).ready(function ($) {
   $(document).ready(function () {
     var enterCode = '';
@@ -49,7 +52,7 @@ jQuery(document).ready(function ($) {
           $('#numbers').addClass('hide');
           //$('#anleitung p').html('Amazing!<br>You entered the correct Code!');
           attemptcounter++;
-          window.close();
+          closeApp();
         } else {
           // Wrong PIN!
           $('#fields').addClass('miss');
