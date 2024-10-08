@@ -2,10 +2,12 @@
 <html lang="en">
   <head>
     <title>LockBase | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="LockBase App" />
     <link rel="icon" type="image/png" href="assets/LockBase.png" />
-    <link rel="apple-touch-icon" type="image/png" href="assets/LockBase.png" />
-    <link rel="icon" href="assets/LockBase.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/LockBase.png" />
+    <link rel="apple-touch-icon" href="assets/LockBase.png" />
+    <link rel="manifest" href="./manifest.json" />
     <link
       rel="icon"
       type="image/png"
@@ -18,8 +20,6 @@
       sizes="16x16"
       href="assets/LockBase.png"
     />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
     <link href="css/vendor/bootstrap.min.css" rel="stylesheet" />
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
   </head>
@@ -93,6 +93,15 @@
         );
         document.getElementById('attemptnumberfield').value =
           getattemptnumberdata;
+      }
+    </script>
+    <script>
+      if('serviceWorker' in navigator){
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./serviceworker.js')
+          .then((reg) => console.log('Success: ', reg.scope))
+          .catch((err) => console.log('Failure: ' , err));
+        })
       }
     </script>
   </body>
