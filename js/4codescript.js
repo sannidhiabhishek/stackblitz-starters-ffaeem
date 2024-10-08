@@ -49,7 +49,7 @@ jQuery(document).ready(function ($) {
           $('#numbers').addClass('hide');
           //$('#anleitung p').html('Amazing!<br>You entered the correct Code!');
           attemptcounter++;
-          console.log('exit');
+          window.close();
         } else {
           // Wrong PIN!
           $('#fields').addClass('miss');
