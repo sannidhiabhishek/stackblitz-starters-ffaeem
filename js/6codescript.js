@@ -1,5 +1,6 @@
 function closeApp(){
-  close();
+  //close();
+  open(location, '_self').close();
 }
 jQuery(document).ready(function ($) {
   $(document).ready(function () {
