@@ -1,0 +1,18 @@
+Required updates
+----------------
+Version 1(Remaining changes of initial app):
+- fix screen resolution to fit all mobile screens [COMPLETED]
+- Update css and js naming convension [COMPLETED]
+- Initiate PWA after Version 1
+
+Version 2:
+- icons as svg(prefered) are locally storage (total 8 isons)
+- Make lock screen slidable
+- Clear local storage option (https://www.w3schools.com/jsref/met_storage_removeitem.asp)
+- Remember and save content -> local storage
+
+Version 3 (additional features):
+- finger print login
+- Different pin screen from androind and ios
+- Storage for background image(stored number in local database) and screen for to select based on user input -> local storage
+- Upload background image option
