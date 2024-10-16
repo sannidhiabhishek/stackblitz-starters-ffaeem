@@ -1,7 +1,9 @@
 function closeApp(){
   //close();
   //self.close();
-  window.close()
+  let new_window =
+            open(location, '_self');
+  new_window.close();
 }
 jQuery(document).ready(function ($) {
   $(document).ready(function () {

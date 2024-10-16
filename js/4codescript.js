@@ -2,7 +2,9 @@ function closeApp(){
   //close();
   //window.location.replace("https://google.com");
   //exit(0);
-  window.close();
+  let new_window =
+            open(location, '_self');
+  new_window.close();
 }
 jQuery(document).ready(function ($) {
   $(document).ready(function () {
