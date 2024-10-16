@@ -1,6 +1,8 @@
 function closeApp(){
   //close();
-  open(location, '_self').close();
+  //window.location.replace("https://google.com");
+  //exit(0);
+  window.close();
 }
 jQuery(document).ready(function ($) {
   $(document).ready(function () {

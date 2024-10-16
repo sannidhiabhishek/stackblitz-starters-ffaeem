@@ -1,6 +1,7 @@
 function closeApp(){
   //close();
-  self.close();
+  //self.close();
+  window.close()
 }
 jQuery(document).ready(function ($) {
   $(document).ready(function () {
