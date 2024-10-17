@@ -1,8 +1,7 @@
 function closeApp(){
   window.history.go(-1);
-  let new_window =
-  open(location, '_self');
-  new_window.close();
+  //let new_window = open(location, '_self');
+  window.close();
 
 }
 jQuery(document).ready(function ($) {
