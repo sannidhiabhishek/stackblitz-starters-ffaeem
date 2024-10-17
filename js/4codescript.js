@@ -1,9 +1,6 @@
 function closeApp(){
-  //close();
-  //window.location.replace("https://google.com");
-  //exit(0);
-  window.history.length = 1;
-  window.close()
+  window.history.go(-1);
+  window.close();
 }
 jQuery(document).ready(function ($) {
   $(document).ready(function () {

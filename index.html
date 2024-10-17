@@ -23,7 +23,7 @@
     <link href="css/vendor/bootstrap.min.css" rel="stylesheet" />
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
   </head>
-  <body onload="getAttemptNumber()" data-spy="scroll">
+  <body onload="getAttemptNumber()" data-spy="scroll" style="background-color: #212529; color: #fff;">
     <div class="container-sm pt-5 px-auto">
       <h2 class="pb-3 text-center">LockBase</h2>
       <div class="text-center pb-2">
@@ -59,26 +59,26 @@
         <div class="pb-3 text-center">
           <a
             type="submit"
-            class="btn btn-outline-dark col-12"
+            class="btn btn-primary btn-outline-dark col-12"
             href="4code.html"
             onclick="saveAttemptNumber()"
           >
-            Initiate 4 code screen
+          <span style="color: #fff;">Initiate 4 code screen</span>
           </a>
         </div>
         <div class="pb-3 text-center">
           <a
             type="submit"
-            class="btn btn-outline-dark col-12"
+            class="btn btn-primary btn-outline-dark col-12"
             href="6code.html"
             onclick="saveAttemptNumber()"
           >
-            Initiate 6 code screen
+            <span style="color: #fff;">Initiate 6 code screen</span>
           </a>
         </div>
       </form>
       <div class="pb-3 pt-4 text-center">
-        <button type="submit" class="btn btn-dark col-12" onclick="window.close()">Exit</button>
+        <button type="submit" class="btn btn-light col-12" onclick="window.close()">Exit</button>
       </div>
     </div>
     <script>
