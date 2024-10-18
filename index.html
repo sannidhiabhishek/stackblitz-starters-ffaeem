@@ -25,8 +25,12 @@
     <script>
       var needToClose = localStorage.getItem("LBNeedToClose");
       if(needToClose == "yes" && typeof needToClose !== 'undefined' && needToClose !== null && needToClose !== ""){
+        console.log(needToClose)
         localStorage.setItem("LBNeedToClose","no");
-        window.close();
+        //console.log(window.location.len)
+        console.log(needToClose)
+        window.open('','_self').close()
+        //window.close();
       }
     </script>
   </head>
