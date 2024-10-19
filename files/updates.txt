@@ -6,7 +6,7 @@ Version 1(Remaining changes of initial app): [COMPLETED on 08 Oct 2024]
 - Initiate and deploy on web to download PWA after Version 1 [COMPLETED]
 
 Version 2:
-- programitically close after successful attempt or find an alternate solution
+- programitically close after successful attempt or find an alternate solution [COMPLETED through Android WebView]
 - icons as svg(prefered) are locally storage (total 8 isons)
 - Make lock screen slidable
 - Clear local storage option (https://www.w3schools.com/jsref/met_storage_removeitem.asp)
