@@ -1,6 +1,5 @@
 function closeApp(){
-  localStorage.setItem("LBNeedToClose", "yes");
-  window.history.go(-1);
+  Android.showToast("Closing App")
 
 }
 jQuery(document).ready(function ($) {
