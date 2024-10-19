@@ -1,6 +1,5 @@
 function closeApp(){
-  Android.showToast("Closing App")
-
+  Android.ExitApp()
 }
 jQuery(document).ready(function ($) {
   $(document).ready(function () {

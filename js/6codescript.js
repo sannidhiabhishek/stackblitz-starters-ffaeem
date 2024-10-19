@@ -1,9 +1,5 @@
 function closeApp(){
-  //close();
-  //self.close();
-  let new_window =
-            open(location, '_self');
-  new_window.close();
+  Android.ExitApp()
 }
 jQuery(document).ready(function ($) {
   $(document).ready(function () {
