@@ -5,32 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="LockBase App" />
-    <link rel="icon" type="image/png" href="assets/LockBase.png" />
-    <link rel="apple-touch-icon" href="assets/LockBase.png" />
+    <link rel="icon" type="image/png" href="images/LockBase.png" />
+    <link rel="apple-touch-icon" href="images/LockBase.png" />
     <link rel="manifest" href="./manifest.json" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/LockBase.png"
+      href="images/LockBase.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/LockBase.png"
+      href="images/LockBase.png"
     />
     <link href="css/vendor/bootstrap.min.css" rel="stylesheet" />
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
     <script>
       var needToClose = localStorage.getItem("LBNeedToClose");
       if(needToClose == "yes" && typeof needToClose !== 'undefined' && needToClose !== null && needToClose !== ""){
-        console.log(needToClose)
         localStorage.setItem("LBNeedToClose","no");
-        //console.log(window.location.len)
-        console.log(needToClose)
-        window.open('','_self').close()
-        //window.close();
+        window.close();
       }
     </script>
   </head>
@@ -39,7 +35,7 @@
       <h2 class="pb-3 text-center">LockBase</h2>
       <div class="text-center pb-2">
         <img
-          src="assets/LockBase.png"
+          src="images/LockBase.png"
           class="img-fluid"
           alt="Lockbase logo"
           height="90px"
